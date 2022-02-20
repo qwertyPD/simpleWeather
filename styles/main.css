@@ -1,0 +1,65 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(63, 146, 210), rgb(110, 179, 233) 39%, rgb(255, 245, 245));
+}
+
+.simpleWeatherInner {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.currentWeather {
+    text-align: center;
+    margin: 2em;
+}
+
+.currentTemperature {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9em;
+}
+
+.city {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+.time {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1em;
+}
+
+.description {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1em;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin: 4em;
+}
+
+.additionsRow {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.additionsItem {
+    flex: 1;
+    margin-bottom: 0.5em;
+}
+
+.name {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
